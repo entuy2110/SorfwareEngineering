@@ -1,0 +1,32 @@
+#header {
+   .header-content {
+        padding: 35px 15px 42px;
+        .img {
+            content: url(/images/logo.png);
+            float: left;
+        }
+       
+       .return {
+           margin-top: 5px;
+            float: right;
+            text-transform: uppercase;
+            display: flex;
+            align-items: center;
+            background-color: #0cc567;
+            padding: 8px 35px;
+            border-radius: 20px;
+            font-size: 15px;
+            &:hover {
+                box-shadow: 5px 5px 8px -3px rgba(45, 50, 70, 0.25);
+            }
+       }
+       a {
+        color: white;
+       }
+       &::after {
+           content: "";
+           display: block;
+           clear: both;
+       }
+   }
+}
