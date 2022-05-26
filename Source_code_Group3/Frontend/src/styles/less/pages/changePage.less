@@ -1,0 +1,113 @@
+.section-change{
+    margin-bottom: 100px;
+    .module-change{
+        .module-content{
+            .input-component{
+                border-top: 3px solid #004683;
+                padding: 0 10px;
+                color: #555;
+                .name{
+                    margin-top: 30px;
+                    font-size: 27px;
+                    font-weight: bold;
+                }
+                .input-block{
+                    .input-block_item{
+                        margin-top: 30px;
+                        .header{
+                            font-size: 24px;
+                            line-height: 40px;
+                            border-bottom: 1px solid #e5e5e5;
+                            padding-bottom: 10px;
+                        }
+                        .input{
+                            margin-top: 10px;
+                            .input-field{
+                                display: flex;
+                                padding: 20px 0 20px 0;
+                                border-bottom: 1px solid #8080801f;
+                                .field{
+                                    min-width: 200px;
+                                    display: flex;
+                                    align-items: center;
+                                }
+                                input{
+                                    margin: 0;
+                                    border: 1px solid #ccc;
+                                }
+                                select{
+                                    min-width: 300px;   
+                                    border: 1px solid #ccc;                             
+                                }
+                                .img {
+                                    background-color: #637093;
+                                    display: flex;
+                                    align-items: center;
+                                    height: 100%;
+                                    min-height: 280px;//chuyen max sau khi setup
+                                    margin: 25px 0px 0px 27px;
+                                    justify-content: center;
+                                    position: relative;
+                                    width: 210px;
+                                        label {
+                                            position: absolute;
+                                            width: 100%;
+                                            height: auto;
+                                            object-fit: cover;
+                                            input {
+                                                display: none;
+                                            }
+                                            z-index: 3;
+                                            .text {
+                                                position: absolute;
+                                                left: 50%;
+                                                top: 50%;
+                                                transform: translateX(-50%) translateY(-50%);
+                                                text-align: center;
+                                                width: 100%;
+                                                color: #fff;
+                                                img {
+                                                    width: unset;
+                                                    height: unset;
+                                                }
+                                            }
+                                           
+                                        }
+                                        img {
+                                            width: 100%;
+                                            position: relative;
+                                            height: auto;
+                                            object-fit: cover;
+                                        }
+                                
+                                }
+                            }
+                        }
+                    
+                    }
+                }
+                .submit{
+                    margin-top: 30px;
+                    border-top: 1px solid #e5e5e5;
+                    padding: 20px 20px 40px 20px;
+                    text-align: center;
+                    background-color: #f5f5f5;
+                    button{
+                        margin: 0 10px;
+                        background-color: #004683;
+                        color: white;
+                        &:nth-child(1):hover{
+                            background-color: #77ae29;
+                        }
+                        &:nth-child(2){
+                            background-color: #c23a34;
+                        }
+                        
+                    }
+                }
+            }
+        }
+    }
+  
+    
+}

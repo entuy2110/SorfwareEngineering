@@ -1,0 +1,68 @@
+.section-home{
+    margin-bottom: 100px;
+    .module-home{
+        .module-content{
+            .course-slide_component{
+                border-top: 3px solid #004683;
+                padding: 0 10px;
+                .header{
+                    padding: 15px 0;
+                    border-bottom: 1px solid  #80808040;
+                }
+                .slide-arrow{
+                    display: flex;
+                    margin-top: 10px;
+                    .prev_caro, .next_caro{
+                        padding: 4px 12px;
+                        border: 1px solid #ddd;
+                        cursor: pointer;
+                        &:hover{
+                            background-color: #f5f5f5;
+                        }
+                    }
+                    .prev_caro{
+                        border-right: none;
+                    }
+                    .next_caro{
+                        border-left: none;
+                    }
+                }
+                .course-slide{
+                    margin-top: 20px;
+                    text-align: center;
+                    .slick-list{
+                        padding-bottom: 5px;
+                    }
+                    .item{
+                        box-shadow: 0 0 10px rgba(0,0,0,.15);
+                        max-width: 300px;
+                        left: 50%;
+                        img{
+                            width: 100%;
+                            min-height: 175px;
+
+                        }
+                        .text{
+                            text-align: left;
+                            padding: 5px 2px 0px 10px ;
+                            p{
+                                margin-top: 0px;
+                            }
+                        }
+                    }
+                }
+                button{
+                    margin: 30px 10px 0px 10px;
+                    background-color: #004683;
+                    color: white;
+                    &:hover{
+                        background-color: #77ae29;
+                    }
+                }
+            }
+          
+        }
+    }
+  
+    
+}

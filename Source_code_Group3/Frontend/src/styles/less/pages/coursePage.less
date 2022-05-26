@@ -1,0 +1,108 @@
+.section-course{
+    margin-bottom: 100px;
+    button{
+        margin: 0px 10px 0px 0px;
+        background-color: #004683;
+        color: white;
+        &:hover{
+            background-color: #77ae29;
+        }
+    }
+    .module-course{
+        .module-content{
+            .course-component{
+                border-top: 3px solid #004683;
+                padding: 0 10px;
+                .header{
+                    padding-top: 50px;
+                    position: relative;
+                    ul{
+                        li{
+                            padding-left: 30px;
+                            position: relative;
+                            color: #555;
+                            font-size: 20px;
+                            &::before{
+                                position: absolute;
+                                content: url(/images/noti.png);
+                                top: 50%;
+                                left: 0;
+                                transform: translateY(-50%);
+                            }
+                        }
+                    }
+                    button{
+                        position: absolute;
+                        bottom: 0%;
+                        right: 0;
+                        &:hover{
+                            background-color: #c23a34;
+                        }
+                    }
+                }
+                .schedule{
+                    margin-top: 50px;
+                    .week-list{
+                        .week-item{
+                            margin-bottom: 40px;
+                            .item-header{
+                                padding: 8px 0;
+                                background: #f4f4f4;
+                                color: #666;
+                                border-color: #EEE #EEE #EEE #004683;
+                                border-style: solid;
+                                border-width: 1px 1px 1px 3px;
+                                padding-left: 4px;
+                                margin-bottom: 10px;
+                                font-weight: bold;
+                                position: relative;
+                                p{
+                                    margin: 0;
+                                }
+                                a{
+                                    position: absolute;
+                                    top: 3px;
+                                    right: 0;
+                                }
+                            }
+                            .doc-list{
+                                padding: 2px;
+                                padding-left: 20px;
+                                font-size: 15px;
+                                .doc-item{
+                                    position: relative;
+                                    padding-left: 30px;
+                                    margin-bottom: 30px;
+                                    img{
+                                        position: absolute;
+                                        left: 0;
+                                    }
+                                    a,p{
+                                        color: #555;
+                                        cursor: pointer;
+                                        position: relative;
+                                        button{
+                                            position: absolute;
+                                            right: 0%;
+                                            top: -5px;
+                                            &:hover{
+                                                background-color: #c23a34;
+                                            }
+                                        }
+                                    }
+                                    p{
+                                        margin-top: 0;
+                                        margin-bottom: 0;
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+          
+        }
+    }
+  
+    
+}

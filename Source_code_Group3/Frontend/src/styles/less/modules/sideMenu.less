@@ -1,0 +1,72 @@
+.page-link{
+    padding: 20px 0;
+}
+.side-menu_component{
+    padding: 0 10px;
+    box-shadow: 0 1px 3px 0 rgba(0,0,0,.2);
+    border: 1px solid #efefef;
+    border-top: 3px solid #004683;
+    padding-bottom: 15px;
+    cursor: pointer;
+    .header{
+        padding: 15px 0;
+        border-bottom: 1px solid  #80808040;
+    }
+    .content{
+        padding: 5px;
+        margin-top: 10px;
+        a{
+            color: #555;
+            text-decoration: none;
+            margin: 3px 0;
+            position: relative;
+        }
+        .branch{
+            .branch-item{
+                padding-left: 20px;
+                p{
+                    margin: 0;
+                    color: #555;
+                    position: relative;
+                    &::before {
+                        content: " ";
+                        position: absolute;
+                        top: 50%;
+                        left: -7%;
+                        transform: translateY(-50%);
+                        border-width: 5px;
+                        border-style: solid;
+                        border-color: transparent transparent transparent #555;
+                    }
+                }
+                
+                .course-list{
+                    .list-item{
+                        padding-left: 20px;
+                        display: block;
+                        a::before {
+                            content: " ";
+                            position: absolute;
+                            top: 50%;
+                            left: -15px;
+                            transform: translateY(-50%);
+                            border-width: 5px;
+                            border-style: solid;
+                            border-color: transparent transparent transparent #555;
+                        }
+                        .list-item_expand{
+                            // display: none;
+                            .expand-item{
+                                padding-left: 20px;
+                            }
+                        }
+                    }
+                   
+                }
+             
+            }
+        }
+    }
+  
+ 
+}
